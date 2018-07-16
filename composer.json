@@ -1,0 +1,30 @@
+{
+  "name": "aliyunapi/aliyun",
+  "description": "aliyunsdk",
+  "keywords": [
+    "aliyun",
+    "aliyun sdk",
+    "guzzle","guzzlehttp"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/aliyunapi/aliyun/issues",
+    "source": "https://github.com/aliyunapi/aliyun"
+  },
+  "authors": [
+    {
+      "name": "Xu TL",
+      "email": "xutongle@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "aliyun\\": "src"
+    }
+  }
+}
